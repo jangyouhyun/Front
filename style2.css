@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "SeoulHangang CEB Regular";
+  src: url("SeoulHangang CEB Regular.ttf") format("truetype");
+} 
+
+*{
+  font-family :'SeoulHangang CEB Regular';
+}
+
+
+.navbar__logo {
+    font-size: 60px;
+    text-align: start;
+    padding:10px;
+}
+
+a {
+    list-style-type: none;
+    color:#71513C;
+    text-decoration: none;
+}
+
+.love{
+  color : #D4927D;
+}
+
+.navbar1 ul {
+  margin : 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  text-align : right;
+} 
+
+.navbar1 a{
+display : border;
+color: #CADFDC;
+float : right;
+font-size : 18px;
+text-align : center;
+padding : 10px;
+}
+
+
+hr{
+  position : relative;
+  top : -10px;
+  width: 100%;
+  height : 4px;
+  background-color :#D4927D;
+  border : none;
+}
+
+p.sort{
+  position : absolute;
+  top: 160px;
+  right : 10px;
+  font-size : 20px;
+  color : #CADFDC;
+}
+
+.list{
+  top : 240px;
+}
+
+div.gallery {
+    position:relative;
+    margin: 10px;
+    float: left;
+    width: 280px;
+    padding : 25px;
+  }
+  
+  div.heart{
+    position : absolute;
+    top : 65%;
+    left : 85%;
+    font-size : 50px;
+    color:#D4927D;
+    font-weight:bold;
+  }
+  
+  div.gallery img {
+    width: 320px;
+    height: 320px;
+    border-radius : 10px;
+  }
+  
+  div.desc {
+    padding: 3px;
+    color : #71513C;
+    text-align: left;
+  }
+  div.desc2{
+    color: #CADFDC;
+    text-align: left;
+  }  
